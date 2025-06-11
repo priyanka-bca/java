@@ -12,5 +12,3 @@ public static void main(String[] args) {
   System.out.println("int: " + myNum1);
   System.out.println("double: " + myNum2);
 }
-
-// comment to check

@@ -1,14 +1,15 @@
-static int plusMethodInt(int x, int y) {
-  return x + y;
-}
+public class Overloading {
 
-static double plusMethodDouble(double x, double y) {
-  return x + y;
+  public int sum(int x, int y){
+  return x+y;
 }
-
+public int sum(int x, int y , int z){
+  return x*y*z;
+}
 public static void main(String[] args) {
-  int myNum1 = plusMethodInt(8, 5);
-  double myNum2 = plusMethodDouble(4.3, 6.26);
-  System.out.println("int: " + myNum1);
-  System.out.println("double: " + myNum2);
+   Overloading s = new Overloading();
+  System.out.println(s.sum(5,8));
+  System.out.println(s.sum(3,5));
 }
+}
+
